@@ -1,1 +1,39 @@
-1234
+配置连接 GitHub
+
+# 配置身份
+git config --global user.email "A175A174@gmail.com"
+git config --global user.name "A175A174"
+
+# 配置 ssh 链接，一路回车，打开提示目录下 id_rsa.pub
+# 复制到 https://github.com/settings/keys 点击 New sshKey，Title 可以不写
+ssh-keygen -t rsa -C "A175A174@email.com"
+
+# 验证 ssh 是否成功
+# Hi A175A174! You've successfully authenticated, but GitHub does not provide shell access
+ssh -T git@github.com
+
+
+
+
+# 克隆项目
+git clone https://github.com/A175A174/BackupProject.git
+
+
+
+
+# 初始化
+git init
+
+# 项目文件变化
+git status
+
+# 添加所有（已修改）文件
+git add .
+
+# 添加到本地仓库，Win 注释用双引号
+git commit -am "first commit init project"
+
+
+
+
+https://www.cnblogs.com/spec-dog/p/11037743.html
