@@ -1,3 +1,7 @@
+
+https://www.cnblogs.com/spec-dog/p/11037743.html
+https://www.cnblogs.com/jhxxb/p/13257815.html
+
 配置连接 GitHub
 
 # 配置身份
@@ -34,6 +38,3 @@ git add .
 git commit -am "first commit init project"
 
 
-
-
-https://www.cnblogs.com/spec-dog/p/11037743.html
